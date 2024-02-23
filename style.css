@@ -1,0 +1,172 @@
+@import url('https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro');
+
+body{
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+header{
+    height: 800px;
+    background: url(images/background.png) no-repeat center center/cover;
+}
+
+header .header-heading{
+    margin-top: 15rem;
+    line-height: 5.5rem;
+}
+
+header .header-heading .underlined{
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+.btn{
+    padding: 10px 1rem;
+    border-radius: 8px;
+}
+.btn-light{
+    border: 1px solid #AFA9EC;
+}
+.btn-dark{ 
+    background-color: #817DE9;
+    color: black;
+    padding: 5px 4rem;
+    border-radius: 6px;
+    width: 90%;
+}
+.currency-card, 
+.currency-card-div{
+    color: #F3F4FE;
+}
+.currency-card-div{
+    margin-top: -16rem;
+    z-index: 1;
+    position: relative;
+}
+.currency-card{
+    width: 70%;
+    margin: auto;
+    background-color: #0B0219;
+    border: 1px solid #F3F4FE;
+    border-radius: 24px;
+    padding: 10px 4rem;
+}
+.currency-card-left,.currency-card-right{
+    width: 50%;
+}
+.currency-card-left{
+    margin-top: 3rem;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+}
+.currency-card-left>*{
+    margin: 1rem 2rem;
+}
+.currency-card-right>*{
+    margin: 10px 2rem;
+}
+
+.currency-card-right input::placeholder{
+    color: black;
+}
+.progress-container {
+    border-radius: 75px;
+    overflow: hidden;
+    background-color: white;
+    width: 70%;
+}
+
+.progress-bar {
+    width: 50%;
+    height: 20px;
+    background-color: #817DE9;
+    border-radius: 75px;
+}
+
+.currency-button{
+    background-color: #817DE9;
+    color: black;
+    padding: 10px 1rem;
+    border-radius: 6px;
+}
+
+.main{
+    background-color:#0B0219 ;
+    padding-top: 15rem;
+    position: relative;
+    top: -12rem;
+    z-index: 0;
+    color: #F3F4FE;
+    
+}
+.logos{
+    border-top: 1px solid #1a132e;
+    border-bottom: 1px solid #1a132e;
+}
+
+.main-flex,
+.main-flex-games,
+.main-flex-social,
+.main-flex-faq
+{
+    width: 90%;
+    margin: auto;
+    margin-top: 7rem;
+}
+
+.main-flex img{
+    height: 45%;
+    width: 45%;
+}
+
+.main-flex img[alt="mobile-final"]{
+    display: none;
+}
+
+.main-flex-games img{
+    height: 40%;
+    width: 40%;
+}
+.background-change{
+    background-color: #120D21;
+    padding: 4.5rem 0rem;
+    border-radius: 16px;
+    width: 75%;
+    margin: auto;
+}
+
+
+.background-change-light{
+    background-color: #252442;   
+    padding: 3rem 4rem;
+    border-radius: 16px;
+}
+
+.background-change-light img{
+    height:auto;
+    width: 900px;
+}
+.background-linear{ 
+    background: linear-gradient(90deg, rgba(1,4,24,1) -30%, rgba(130,125,233,1) 80%, rgba(179,119,230,1) 100%);
+    padding: 3rem;
+    border-radius: 16px;
+    margin: 2rem 0;
+    align-items: center;
+}
+.main-flex .card{
+    margin-left: 8rem
+}
+
+footer{
+    border-top: 1px solid #1a132e;
+    background-color: #0B0219;
+    padding: 10rem 0;
+    color: #F3F4FE;
+    position: relative;
+    top: -17rem;
+}
